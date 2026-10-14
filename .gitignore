@@ -1,0 +1,19 @@
+# Build output
+build/
+dist/
+
+# Compiler artefacts
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.exe
+
+# Generated during the build from the local System32\winmm.dll
+impl/dll/shim/winmm.def
+impl/dll/shim/winmm_orig.def
+impl/dll/shim/winmm_exports.rsp
+
+# Logs
+*.log
